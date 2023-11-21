@@ -1,4 +1,50 @@
+.heading {
+  margin-bottom: 20px;
+}
+
 .userNav {
   display: flex;
   flex-direction: column;
+  align-items: start;
+}
+
+.navLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+
+  padding: 12px;
+  gap: 8px;
+
+  color: var(--secondary-text-color);
+}
+
+.activeLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+
+  padding: 12px;
+  gap: 8px;
+
+  color: var(--color-task-low-priority);
+
+  background: var(--bgc-task-low-priority);
+  min-width: 150px;
+  border-radius: 8px;
 }

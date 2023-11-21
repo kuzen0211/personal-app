@@ -1,7 +1,8 @@
 .container {
   box-sizing: border-box;
 
-  background: rgb(244, 255, 255);
+  background: linear-gradient(to bottom, rgb(244, 255, 255) 0%, rgb(173, 216, 230) 100%);
+  box-shadow: 3px 0 6px rgba(0, 0, 0, 0.1);
   padding: 20px;
 
   flex-direction: column;
@@ -21,6 +22,6 @@
   align-items: center;
 }
 
-.lego {
-  fill: black;
+.logo {
+  margin-bottom: 50px;
 }

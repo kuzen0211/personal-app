@@ -1,13 +1,68 @@
+:root {
+  /* --white-color: #ffffff; */
+  --side-bar-bgd-color: rgb(244, 255, 255);
+  /* --register-bgd-color: #dcebf7; */
+  /* --secondary-black-color: #13151a;
+  /* --dark-secondary-bgd-color: #21222c; */
+  /* --button-bgd-color: #3e85f3; */
+  /* --primary-black-color: #111111; */
+  --secondary-text-color: #84828a;
+  /* --placeholder-text-color: #dce3e5; */
+  /* --date-text-color: #343434; */
+  /* --day-text-color: #616161; */
+  /* --dark-day-text-color: #fafafa; */
+  /* --low-priority-color: #72c2f8; */
+  /* --medium-priority-color: #f3b249; */
+  /* --high-priority-color: #ea3d65; */
+  /* --high-priority-bgd: #ffd2dd; */
+  /* --medium-priority-bgd: #fcf0d4; */
+  /* --low-priority-bgd: #ceeefd; */
+  /* --task-button-color: #e3f3ff; */
+  /* --active-color: #cae8ff; */
+  /* --normal-input-state: rgba(17, 17, 17, 0.15); */
+  /* --error-input-state: #e74a3b; */
+  /* --error-msg: #db1414; */
+  /* --correct-input-state: #3cbc81; */
+  /* --hover-bgc-submit: #2b78ef; */
+  /* --task-priority-marker: #f7f6f9; */
+  /* --datepicker-line: rgba(255, 255, 255, 0.2); */
+  --color-task-low-priority: #3e85f3;
+  --bgc-task-low-priority: #ceeefd;
+  /* --color-task-medium-priority: #f3b249; */
+  /* --bgc-task-medium-priority: #fcf0d4; */
+  /* --color-task-high-priority: #ea3d65; */
+  /* --bgc-task-high-priority: #ffd2dd; */
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--mobile-bdg-color);
+  color: var(--basic-text-color);
+  box-sizing: content-box;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+button {
+  background-color: var(--button-bgd-color);
+  color: var(--primary-bgd-color);
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }

@@ -5,7 +5,7 @@ import { UserNav } from '../UserNav/UserNav';
 export const SideBar = () => {
   return (
     <div className={styles.container}>
-      <a href="/">
+      <a href="/" className={styles.logo}>
         <span>BBO</span>
       </a>
       <UserNav />
